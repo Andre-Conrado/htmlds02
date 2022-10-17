@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white
     
 }
 
@@ -36,12 +36,13 @@ p{
 }
 .menu {
     width: 15%;
-    background-color: rgba(5, 108, 108, 0.342);
+    background-color: rgb(11, 169, 218);
     padding: 10px 20px 0px;
 }
 
 nav#menu {
     display: block;
+    margin-top: 60px;
 }
 
 nav#menu ul {
@@ -58,7 +59,7 @@ nav#menu li:hover {
 }
 nav#menu li {
     display: inline-block;
-    background-color: rgb(168, 165, 165);
+    background-color: #014c8e;
     padding: 10px;
     margin: 2px;
     width: 150px;
@@ -72,7 +73,7 @@ nav#menu h1{
 }
 
 nav#menu a{
-    color: black;
+    color: white;
     text-decoration: none;
    
 }
@@ -93,7 +94,67 @@ nav#menu a:hover {
     padding: 20px;
     text-align: center;
 }
+
+.tabhorario{
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+    margin-left: 200px;
+    border-collapse:separate;
+    overflow:hidden;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54, 54, 54);
+  
+    
+
+
+}
+
+
+.table-round-corner {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    overflow:hidden;
+    border-collapse:separate;
+    border: solid #ccc 1px;
+    -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+            border-radius: 25px;
+}
+
+
+table td{
+    color: #aaa;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-bottom: -40px;
+    
+   
+}
+
+
+
+table th{
+    color: white;
+    background-color:rgba(7, 158, 158, 0.651);
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54, 54, 54);
+    font-size: 12px; 
+}
+
+
+
+
+    
+
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 80px;
+    margin-top: 100px;
 }
