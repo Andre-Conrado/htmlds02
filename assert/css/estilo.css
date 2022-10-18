@@ -1,6 +1,8 @@
-html, body {
+html,
+body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -12,28 +14,31 @@ body {
     display: flex;
     margin: 0 auto;
     background-color: white
-    
 }
 
-.corpo{
+.corpo {
     color: grey;
 }
 
-p{
-  
+p {
     font-family: 'Raleway', sans-serif;
     color: rgb(54, 54, 54);
 }
 
-#map{
-    margin-top: 150px;
+.map {
+    margin-top: 100px;
     border-radius: 10px;
+    border: 3px solid #ccc;
+    border-collapse: separate;
+    overflow: hidden;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
     background-color: rgb(11, 169, 218);
@@ -46,17 +51,18 @@ nav#menu {
 }
 
 nav#menu ul {
- list-style: none;
- text-transform: uppercase;
- /*position: absolute;
+    list-style: none;
+    text-transform: uppercase;
+    /*position: absolute;
  top:-20px;
  left: 500px; */
- margin-left: -40px;
+    margin-left: -40px;
 }
 
 nav#menu li:hover {
-    background-color: rgb(116, 114, 114);
+    background-color: rgb(11, 169, 218);
 }
+
 nav#menu li {
     display: inline-block;
     background-color: #014c8e;
@@ -64,18 +70,18 @@ nav#menu li {
     margin: 2px;
     width: 150px;
     text-align: center;
-    transition:background-color 1s;
+    transition: background-color 1s;
     border-radius: 10px;
 }
 
-nav#menu h1{
+nav#menu h1 {
     display: none;
 }
 
-nav#menu a{
+nav#menu a {
     color: white;
     text-decoration: none;
-   
+
 }
 
 nav#menu a:hover {
@@ -83,7 +89,7 @@ nav#menu a:hover {
 }
 
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: white;
     min-height: 100px;
 }
 
@@ -95,66 +101,70 @@ nav#menu a:hover {
     text-align: center;
 }
 
-.tabhorario{
+.content-resultado {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+
+}
+
+.formresultado {
+    width: 30%;
+    margin-left: 330px;
+    margin-top: 100px;
+
+}
+
+fieldset {
+    border-radius: 15px;
+    border: 1px solid silver;
+}
+
+.formagenda {
+    width: 550px;
+    align-content: center;
+    margin-top: 70px;
+    margin-left: 200px;
+     
+}
+
+.tabhorario {
     border: 2px solid #ccc;
     border-radius: 15px;
     width: 60%;
     text-align: center;
     margin-left: 200px;
-    border-collapse:separate;
-    overflow:hidden;
+    margin-top: 80px;
+    border-collapse: separate;
+    overflow: hidden;
     font-family: 'Raleway', sans-serif;
     color: rgb(54, 54, 54);
-  
-    
-
 
 }
 
-
-.table-round-corner {
-    margin-top: 15px;
-    width: 100%;
-    text-align: center;
-    overflow:hidden;
-    border-collapse:separate;
-    border: solid #ccc 1px;
-    -webkit-border-radius: 25px;
-       -moz-border-radius: 25px;
-            border-radius: 25px;
-}
-
-
-table td{
+table td {
     color: #aaa;
     background-color: white;
     padding: 5px;
     border: 1px solid #ddd;
     border-bottom: -40px;
-    
-   
+
 }
 
-
-
-table th{
+table th {
     color: white;
-    background-color:rgba(7, 158, 158, 0.651);
+    background-color: white;
     font-weight: normal;
     text-align: center;
-    padding: 5px;
+    padding: 0px;
     font-family: 'Raleway', sans-serif;
     color: rgb(54, 54, 54);
-    font-size: 12px; 
+    font-size: 14px;
 }
 
-
-
-
-    
-
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: white;
     min-height: 80px;
     margin-top: 100px;
+    text-align: center;
 }
